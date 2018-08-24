@@ -10,6 +10,7 @@ def alphabetize(arr)
         count += 1
       else
         array2 << [count, string]
+        count = 0
       end
     end
   end
