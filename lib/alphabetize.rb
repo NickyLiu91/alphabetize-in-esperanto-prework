@@ -9,7 +9,7 @@ def alphabetize(arr)
       while string[0] != letter
         count += 1
       else
-        array2 << [count,string]
+        array2 << [count, string]
       end
     end
   end
