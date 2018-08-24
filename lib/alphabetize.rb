@@ -7,7 +7,7 @@ def alphabetize(arr)
   arr.each do |string|
     ESPERANTO_ALPHABET.each do |letter|
       while string[0] != letter
-        count = += 1
+        count += 1
       else
         array2 << [count,string]
       end
