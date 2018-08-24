@@ -6,7 +6,7 @@ def alphabetize(arr)
   count = 0
   arr.each do |string|
     alphabet.each do |letter|
-      while string[0] != letter
+      if string[0] != letter
         count += 1
       else
         array2 << [count, string]
