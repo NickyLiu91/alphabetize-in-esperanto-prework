@@ -1,11 +1,11 @@
 def alphabetize(arr)
   # code here
-  ESPERANTO_ALPHABET = "abcĉdefgĝhĥijĵklmnoprsŝtuŭvz"
+  alphabet = "abcĉdefgĝhĥijĵklmnoprsŝtuŭvz"
 
   array2 = []
   count = 0
   arr.each do |string|
-    ESPERANTO_ALPHABET.each do |letter|
+    alphabet.each do |letter|
       while string[0] != letter
         count += 1
       else
